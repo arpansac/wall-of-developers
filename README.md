@@ -46,13 +46,13 @@ For making any changes (from your local system), just following the following st
 - Open [VS Code](https://code.visualstudio.com/download).
 - Go to *View > Terminal*.
 - To **clone** the repo to your *desktop*, change the directory to *desktop* by running the command `cd desktop`.
-- In the terminal, run `git clone https://github.com/CodingNinjasCodes/InterQues.git`.
+- In the terminal, run `git clone https://github.com/CodingNinjasCodes/wall-of-developers.git`.
 - A folder/directory should be created on your *desktop*.
 - Open that folder in **VS Code**, go to *File > Open*.
 - Now you're good to go!
 
 ## Support
-- Send an email directly to arpan(at)codingninjas(dot)in
+- Send an email directly to arpan@codingninjas.in
 
 ## Code of conduct
 
