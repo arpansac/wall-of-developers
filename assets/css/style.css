@@ -1,7 +1,7 @@
 .small-font{
     font-size: 12px;
 }
-#no-line{
+.no-text-decoration:hover{
     text-decoration: none;
 }
 .black{
@@ -9,7 +9,4 @@
 }
 .grey{
     color: grey;
-}
-#no-line1{
-    text-decoration: none;
 }
