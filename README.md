@@ -6,7 +6,7 @@ This is a collaborative repository where students create their profiles and conn
 It's going to be completely compiled by our students and a great platform to connect with all coding ninjas students.
 
 ### Note 
-No assests file should be greater than 10kb.
+No assets file should be greater than 10kb.
 
 ## Index
   - [How it works?](#how-it-works)
@@ -17,11 +17,11 @@ No assests file should be greater than 10kb.
 
 
 ## How it works?
-This is started as a learning project for students 
+This is started as a learning project for students where they have to create their profile and attach their resume website. A student from the new batch has to create a new batch in the repository following his/her profile. In this way, it works.
 
 ## Contribution guidelines / Steps
 For making any changes (from your local system), just following the following steps
-- fork this repository into your github account (create one if you don't have it yet)
+- fork this repository into your Github account (create one if you don't have it yet)
 - clone it to your system (git clone <link>)
 - in the terminal run `git remote add upstream https://github.com/CodingNinjasCodes/wall-of-developers.git` (this is for taking a fresh update of the code anytime in the future)
 - create a new branch from the [Branch Types](#branch-types) below
@@ -57,6 +57,6 @@ For making any changes (from your local system), just following the following st
 ## Code of conduct
 
 Respect fellow developers, everyone might be at a different stage of skill levels 
- Encourage fellow developers, pass on an opportunity to them, if they've asked something simple, just point them to the right direction in as polite a manner as possible 
+ Encourage fellow developers, pass on an opportunity to them, if they've asked something simple, just point them in the right direction in as polite a manner as possible 
  Thank fellow developers if they help you out in any way 
 
