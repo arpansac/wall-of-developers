@@ -17,7 +17,11 @@ No assets file should be greater than 10kb.
 
 
 ## How it works?
-This is started as a learning project for students where they have to create their profile and attach their resume website. A student from the new batch has to create a new batch in the repository following his/her profile. In this way, it works.
+This is started as a learning project for students where they have to create their profile and attach their resume website. A student from the new batch has to create a new batch in the repository following his/her profile.
+
+## Things you can do 
+- Create a new batch
+- Add/Edit your student profile and resume website
 
 ## Contribution guidelines / Steps
 For making any changes (from your local system), just following the following steps
