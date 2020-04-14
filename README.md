@@ -29,9 +29,9 @@ For making any changes (from your local system), just following the following st
 - clone it to your system (git clone <link>)
 - in the terminal run `git remote add upstream https://github.com/CodingNinjasCodes/wall-of-developers.git` (this is for taking a fresh update of the code anytime in the future)
 - create a new branch from the [Branch Types](#branch-types) below
+- **Important Step:** get the updated code by running command `git pull upstream development` in terminal
 - make the changes, commit and push them to your forked repository
 - create a pull request (mark an issue if it resolves one)
-- getting updated code, just run git pull upstream master
 - To add any static file, please put it into assets folder
 
 ##### Branch Types
