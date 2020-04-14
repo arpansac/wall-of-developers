@@ -4,9 +4,6 @@ body {
     font-size: 30px;
 }
 
-body::-webkit-scrollbar { 
-    display: none; 
-}
 
 
 /* Body Header */
@@ -25,56 +22,8 @@ body::-webkit-scrollbar {
 
 /* Horizontal Lists */
 
-.bars{
-    color: white;
-    margin: 0;
-    margin-right: 5%;
-    display: none;
-}
-
-.bars i {
-    font-size: 2rem;
-}
-
-.dropdown-list{
-    margin: 0;
-    display: none;
-    background-color: #828470;
-    box-shadow: 0px 4px 8px 1px #535547;
-}
-
-.dropdown-list ul{
-    margin: 0.2rem 0.2rem;
-    text-align: left;
-    padding: 0px 0.8rem;
-}
-
-.dropdown-menu:hover .dropdown-list{
-    display: block;
-    position: absolute;
-    right: 3%;
-}
-
-.dropdown-list li{
-    margin: 0.4rem 0px;
-}
-
-.no-list-style{
-    list-style: none;
-}
-
-.no-list-style li {
-    font-weight: 100;
-    font-size: 0.9rem;
-}
-
-.no-list-style li a{
-    list-style: none;
-    color: white;
-    text-decoration: none;
-}
-
 .horizontal-list {
+    list-style: none;
     padding-left: 0px;
     margin: 0px;
 }
@@ -82,8 +31,14 @@ body::-webkit-scrollbar {
 .horizontal-list li {
     display: inline-block;
     margin: 0px 8px 8px 0px;
+    font-weight: 100;
+    font-size: 0.9rem;
 }
 
+.horizontal-list li a {
+    color: white;
+    text-decoration: none;
+}
 
 .nav-menu li a {
     transition: color 0.5s, border-bottom 4s;
@@ -93,6 +48,11 @@ body::-webkit-scrollbar {
     color: lightgrey;
     border-bottom: 1px solid black;
 }
+
+.text-center {
+    text-align: center;
+}
+
 
 
 /* Name and Social Icons*/
@@ -111,7 +71,9 @@ body::-webkit-scrollbar {
 
 .social-icons li a i {
     padding: 10px;
-    font-size: 1rem;
+/*    font-size: 1rem;*/
+    height: 1rem;
+    width: 1rem;
     border-radius: 50%;
 }
 
@@ -281,7 +243,7 @@ section:nth-child(2n + 1) {
 #timeline-divider {
     position: absolute;
     width: 0;
-    top: 10%;
+    top: 11.5%;
     left: 50%;
     border: 1px dashed #0096fa6b;
     height: 66%;
@@ -320,11 +282,19 @@ section:nth-child(2n + 1) {
 }
 
 .experience-description {
-    font-size: 14px;
+    font-size: 1.1rem;
     padding: 2px;
     color: grey;
     line-height: 20px;
+    font-style: italic;
+    word-spacing: 1px;
+    line-height: 1.4;
 }
+
+.text-align-justify {
+    text-align: justify;
+}
+
 
 
 /* Portfolio Section */
@@ -487,19 +457,7 @@ button:focus {
     outline: none;
 }
 
-/* Common Text Align Classes */
 
-.text-right{
-    text-align: right;
-}
-
-.text-center {
-    text-align: center;
-}
-
-.text-justify {
-    text-align: justify;
-}
 
 /* Common Margin Classes */
 
@@ -524,6 +482,7 @@ button:focus {
     font-weight: 600;
 
 }
+
 
 
 /* setting background-color */
@@ -567,6 +526,9 @@ button:focus {
     width: 50%;
 }
 
+.experience-description a {
+    text-decoration: none;
+} 
 
 @media only screen and (max-width: 572px) {
     
@@ -596,11 +558,11 @@ button:focus {
     }
 
     .timeline-box::after {
-        left: -9.3% !important;
+        left: -10.5% !important;
     }
 
     #timeline-divider {
-        top: 10%;
+        top: 11%;
         left: 2%;
     }
 
@@ -621,6 +583,19 @@ button:focus {
         width: 80%;
         margin: 10%;
     }
+    
+    /*
+    .timeline-box:nth-child(2n)::after {
+    left: -9%;
+    }
+*/
+/*
+    .timeline-box:nth-child(2n+1)::after {
+    right: -11.8%;
+*/
+/*
+    .timeline-box:nth-child(2n)::after {
+    right: -11.8%;
+*/
 
 }
-
