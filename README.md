@@ -1,7 +1,6 @@
 # Wall-of-Developers (https://codingninjascodes.github.io/wall-of-developers)
 This is a collaborative repository where students create their profiles and connect to others. This will be written in HTML and Bootstrap.
 
-
 ### What's amazing?
 It's going to be completely compiled by our students and a great platform to connect with all coding ninjas students.
 
@@ -9,12 +8,11 @@ It's going to be completely compiled by our students and a great platform to con
 No assets file should be greater than 10kb.
 
 ## Index
-  - [How it works?](#how-it-works)
-  - [Contribution guidelines](#contribution-guidelines)
-  - [Support](#support)
-  - [Code of conduct](#code-of-conduct)
-  - [License](LICENSE)
-
+- [How it works?](#how-it-works)
+- [Contribution guidelines](#contribution-guidelines)
+- [Support](#support)
+- [Code of conduct](#code-of-conduct)
+- [License](LICENSE)
 
 ## How it works?
 This is started as a learning project for students where they have to create their profile and attach their resume website. A student from the new batch has to create a new batch in the repository following his/her profile.
@@ -56,11 +54,8 @@ For making any changes (from your local system), just following the following st
 - Now you're good to go!
 
 ## Support
-- Send an email directly to arpan@codingninjas.in
+- For support, please create an **issue** regarding the same. We will help you out there.
+- To create an **issue**, go to the `Issues` tab, then select **New issue**.
 
 ## Code of conduct
-
-Respect fellow developers, everyone might be at a different stage of skill levels 
- Encourage fellow developers, pass on an opportunity to them, if they've asked something simple, just point them in the right direction in as polite a manner as possible 
- Thank fellow developers if they help you out in any way 
-
+Respect fellow developers, everyone might be at a different stage of skill levels. Encourage fellow developers, pass on an opportunity to them, if they've asked something simple, just point them in the right direction in as polite a manner as possible. Thank fellow developers if they help you out in any way!
